@@ -1,5 +1,5 @@
 <?php
 
-require_once (__DIR__ . "/../lib/buildProductItem.php");
+include ("D:/Users/MIKOLKA/DZ-PHP/DZ_2/asentus/indexAs.php");
 
-buildProductItem();
+//buildProductItem();

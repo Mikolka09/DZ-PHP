@@ -30,7 +30,7 @@
                         <a class="nav-link" href="index.php?openPage=contacts.php">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php?openPage=product.php">Product</a>
+                        <a class="nav-link" href="index.php?openPage=indexAs.php">Product</a>
                     </li>
                 </ul>
                 <form class="d-flex">
