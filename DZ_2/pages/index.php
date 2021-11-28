@@ -8,6 +8,9 @@ require_once("../template/service.php");
 require_once("../template/products.php");
 require_once("../template/clients.php");
 require_once("../template/testimonials.php");
+require_once("../template/pricing.php");
+require_once("../template/promo.php");
+require_once("../template/work.php");
 
 $openPage = "index.php";
 if (isset($_GET['openPage'])) $openPage = $_GET['openPage'];

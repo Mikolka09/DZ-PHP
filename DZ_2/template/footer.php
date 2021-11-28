@@ -1,4 +1,3 @@
-</div>
 <!--========== FOOTER ==========-->
 <footer class="footer">
     <!-- Links -->
