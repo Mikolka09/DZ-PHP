@@ -66,9 +66,9 @@
             <div class="collapse navbar-collapse nav-collapse">
                 <div class="menu-container">
                     <ul class="navbar-nav navbar-nav-right">
-                        <li class="nav-item"><a class="nav-item-child nav-item-hover active" href="index.php">Home</a></li>
-                        <li class="nav-item"><a class="nav-item-child nav-item-hover" href="index.php">Pricing</a></li>
-                        <li class="nav-item"><a class="nav-item-child nav-item-hover" href="index.php?openPage=about.php">About</a></li>
+                        <li class="nav-item"><a class="nav-item-child nav-item-hover" href="about.php?openPage=index.php">Home</a></li>
+                        <li class="nav-item"><a class="nav-item-child nav-item-hover" href="pricing.html">Pricing</a></li>
+                        <li class="nav-item"><a class="nav-item-child nav-item-hover active" href="about.php">About</a></li>
                         <li class="nav-item"><a class="nav-item-child nav-item-hover" href="products.html">Products</a></li>
                         <li class="nav-item"><a class="nav-item-child nav-item-hover" href="faq.html">FAQ</a></li>
                         <li class="nav-item"><a class="nav-item-child nav-item-hover" href="contact.html">Contact</a></li>
@@ -81,4 +81,12 @@
     <!-- Navbar -->
 </header>
 <!--========== END HEADER ==========-->
+<!--========== PARALLAX ==========-->
+<div class="parallax-window" data-parallax="scroll" data-image-src="../img/1920x1080/01.jpg">
+    <div class="parallax-content container">
+        <h1 class="carousel-title">About Us</h1>
+        <p>Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua <br/> enim minim estudiat veniam siad venumus dolore</p>
+    </div>
+</div>
+<!--========== PARALLAX ==========-->
 <div>

@@ -1,3 +1,4 @@
+</div>
 <!--========== FOOTER ==========-->
 <footer class="footer">
     <!-- Links -->
@@ -33,7 +34,8 @@
                     <input type="text" class="form-control footer-input margin-b-20" placeholder="Name" required>
                     <input type="email" class="form-control footer-input margin-b-20" placeholder="Email" required>
                     <input type="text" class="form-control footer-input margin-b-20" placeholder="Phone" required>
-                    <textarea class="form-control footer-input margin-b-30" rows="6" placeholder="Message" required></textarea>
+                    <textarea class="form-control footer-input margin-b-30" rows="6" placeholder="Message"
+                              required></textarea>
                     <button type="submit" class="btn-theme btn-theme-sm btn-base-bg text-uppercase">Submit</button>
                 </div>
             </div>
@@ -49,7 +51,9 @@
                 <img class="footer-logo" src="../design/img/logo.png" alt="Asentus Logo">
             </div>
             <div class="col-xs-6 text-right">
-                <p class="margin-b-0"><a class="color-base fweight-700" href="http://keenthemes.com/preview/asentus/">Asentus</a> Theme Powered by: <a class="color-base fweight-700" href="http://www.keenthemes.com/">KeenThemes.com</a></p>
+                <p class="margin-b-0"><a class="color-base fweight-700" href="http://keenthemes.com/preview/asentus/">Asentus</a>
+                    Theme Powered by: <a class="color-base fweight-700"
+                                         href="http://www.keenthemes.com/">KeenThemes.com</a></p>
             </div>
         </div>
         <!--// end row -->
