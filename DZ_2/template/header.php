@@ -1,44 +1,84 @@
-<!doctype html>
-<html lang="ru">
+<!DOCTYPE html>
+<!-- ==============================
+    Project:        Metronic "Asentus" Frontend Freebie - Responsive HTML Template Based On Twitter Bootstrap 3.3.4
+    Version:        1.0
+    Author:         KeenThemes
+    Primary use:    Corporate, Business Themes.
+    Email:          support@keenthemes.com
+    Follow:         http://www.twitter.com/keenthemes
+    Like:           http://www.facebook.com/keenthemes
+    Website:        http://www.keenthemes.com
+    Premium:        Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+================================== -->
+<html lang="en" class="no-js">
+<!-- BEGIN HEAD -->
 <head>
-    <!-- Обязательные метатеги -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <meta charset="utf-8"/>
     <title><?=$pageTitle?></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <meta content="" name="description"/>
+    <meta content="" name="author"/>
+
+    <!-- GLOBAL MANDATORY STYLES -->
+    <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+    <link href="../design/vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../design/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+    <!-- PAGE LEVEL PLUGIN STYLES -->
+    <link href="../design/css/animate.css" rel="stylesheet">
+    <link href="../design/vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+
+    <!-- THEME STYLES -->
+    <link href="../design/css/layout.min.css" rel="stylesheet" type="text/css"/>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico"/>
 </head>
+<!-- END HEAD -->
+
+<!-- BODY -->
 <body>
-<div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.php">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.php?openPage=about.php">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.php?openPage=contacts.php">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.php?openPage=indexAs.php">Product</a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+
+<!--========== HEADER ==========-->
+<header class="header navbar-fixed-top">
+    <!-- Navbar -->
+    <nav class="navbar" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="menu-container">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="toggle-icon"></span>
+                </button>
+
+                <!-- Logo -->
+                <div class="logo">
+                    <a class="logo-wrap" href="index.php">
+                        <img class="logo-img logo-img-main" src="../design/img/logo.png" alt="Asentus Logo">
+                        <img class="logo-img logo-img-active" src="../design/img/logo-dark.png" alt="Asentus Logo">
+                    </a>
+                </div>
+                <!-- End Logo -->
             </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse nav-collapse">
+                <div class="menu-container">
+                    <ul class="navbar-nav navbar-nav-right">
+                        <li class="nav-item"><a class="nav-item-child nav-item-hover active" href="index.php">Home</a></li>
+                        <li class="nav-item"><a class="nav-item-child nav-item-hover" href="index.php?openPage=about.php">Pricing</a></li>
+                        <li class="nav-item"><a class="nav-item-child nav-item-hover" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-item-child nav-item-hover" href="products.html">Products</a></li>
+                        <li class="nav-item"><a class="nav-item-child nav-item-hover" href="faq.html">FAQ</a></li>
+                        <li class="nav-item"><a class="nav-item-child nav-item-hover" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End Navbar Collapse -->
         </div>
     </nav>
-
-
+    <!-- Navbar -->
+</header>
+<!--========== END HEADER ==========-->
+<div>
