@@ -15,8 +15,8 @@
                     Показать список пользователей -
                     <a href="userstable" class="btn btn-success align-right">Users</a>
                 </div>
-
             </div>
         </div>
     </div>
+    <x-userslist/>
 </x-app-layout>

@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\UsersTableController;
+use App\Models\User;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,6 +22,7 @@ Route::get('/', function () {
 });
 
 Route::get('/dashboard', function () {
+    $users = new User();
     return view('dashboard');
 })->middleware(['verified'])->name('dashboard');
 

@@ -23,12 +23,12 @@
         </thead>
         <tbody>
         @foreach($users as $user)
-            <tr>
-                <th scope="row">{{$loop->iteration}}</th>
-                <td>{{$user->name}}</td>
-                <td>{{$user->email}}</td>
-                <td>{{$user->created_at}}</td>
-            </tr>
+                <tr>
+                    <th scope="row">{{$loop->iteration}}</th>
+                    <td>{{$user->name}}</td>
+                    <td>{{$user->email}}</td>
+                    <td>{{$user->created_at}}</td>
+                </tr>
         @endforeach
         </tbody>
     </table>
